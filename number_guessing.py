@@ -20,7 +20,7 @@ while attempts < maximum_attempts:
     
     number_chosen = int(input("Choose a value: "))
 
-    if attempts > 6:
+    if attempts > maximum_attempts:
         break
 
 else:
